@@ -10,6 +10,10 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 
 - qtile
 - kitty
+- zsh
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+- oh-my-posh
 - thunar
 - thunar-archive-plugin
 - thunar-volman
