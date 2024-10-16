@@ -2,10 +2,19 @@
 
 Based on [HyDE](https://github.com/prasanthrangan/hyprdots) and [JhoalfercoQtileDotfiles](https://github.com/JhonatanFerrer/JhoalfercoQtileDotfiles) 
 
+Hyprland config is default [HyDE](https://github.com/prasanthrangan/hyprdots) with modified keybinds.
+Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/JhonatanFerrer/JhoalfercoQtileDotfiles) with some tweaks
 ## Dependencies
 
 - qtile
 - kitty
+- thunar
+- thunar-archive-plugin
+- thunar-volman
+- tumbler
+- gvfs
+- ark
+- p7zip
 - fastfetch
 - picom
 - rofi
