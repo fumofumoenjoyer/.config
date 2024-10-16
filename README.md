@@ -14,6 +14,7 @@ Based on [HyDE](https://github.com/prasanthrangan/hyprdots) and [JhoalfercoQtile
 - playerctl
 - brightnessctl
 - nitrogen
+- flameshot
 - imagemagick (needed to display images in kitty)
 - alsa-utils (amixer is needed for volume widget)
 - python libs: iwlib, psutil
