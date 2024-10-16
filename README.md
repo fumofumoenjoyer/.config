@@ -43,5 +43,5 @@ I also recommend the [Tokyo Night GTK theme](https://www.gnome-look.org/p/168131
 Some fastfetch images
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_16-23.png)
 
-CLI applications: fastfetch, htop, tty-clock, unimatrix and cava
+CLI applications: fastfetch, htop, tty-clock and unimatrix
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-09.png)
