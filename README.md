@@ -39,9 +39,13 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 I also recommend the [Tokyo Night GTK theme](https://www.gnome-look.org/p/1681315). You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 
 ## Screenshots
+![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-30_1.png)
 
 Some fastfetch images
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_16-23.png)
 
 CLI applications: fastfetch, htop, tty-clock and unimatrix
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-09.png)
+
+Apps
+![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-30.png)
