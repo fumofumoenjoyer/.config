@@ -1,5 +1,7 @@
 # Config Files
 
+Based on [HyDE](https://github.com/prasanthrangan/hyprdots) and [JhoalfercoQtileDotfiles](https://github.com/JhonatanFerrer/JhoalfercoQtileDotfiles) 
+
 ## Dependencies
 
 - qtile
