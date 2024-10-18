@@ -157,8 +157,8 @@ screens = [
                 #     foreground=foreground2
                 # ),
                 widget.KeyboardLayout(
-                    configured_keyboards=['us intl', 'es'],
-                    display_map={'us intl': '   us intl',  'es': '   es'},
+                    configured_keyboards=['us', 'es'],
+                    display_map={'us': '   us',  'es': '   es'},
                     background=color2, foreground=foreground2
                 ),
                 widget.TextBox(
