@@ -184,8 +184,20 @@ screens = [
                     foreground=foreground2
                 ),
                 widget.TextBox(" ", fontsize=40, padding=-14, background=color3, foreground=color4),
+                widget.WidgetBox(
+                    widgets=[
+                        widget.TaskList(
+                            background=color4, 
+                            foreground=foreground2,
+                        )
+                    ],
+                    text_closed=' ',
+                    text_open='  ',
+                    background=color4, 
+                    foreground=foreground2,
+                ),
                 widget.CPU(
-                    format=' {load_percent}% ', 
+                    format='{load_percent}% ', 
                     background=color4, 
                     foreground=foreground2
                 ),
