@@ -57,6 +57,9 @@ Install dependencies (Arch only for now) (you will need and AUR helper)
 sudo pacman -Syu
 yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots
 ```
+Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
+
+To use my zshrc and my prompt add a dot on the start of histfile and zshrc and move them to the home directory with the prompt.json file.
 
 ## Screenshots
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-30_1.png)
