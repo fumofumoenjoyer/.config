@@ -38,6 +38,12 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - [papirus icons](https://www.pling.com/p/1166289)
 - [ubuntu](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip) and [firacode](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip) nerdfonts (for bar and terminal, respectively)
 
+If you want to use this config on wayland comment the line
+
+#picom &
+
+on ~/.config/qtile/autostart.sh
+
 I also recommend the [Tokyo Night GTK theme](https://www.gnome-look.org/p/1681315). You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 
 ## Screenshots
