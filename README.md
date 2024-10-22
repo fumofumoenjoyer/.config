@@ -28,6 +28,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - pipewire
 - playerctl
 - brightnessctl
+- waypaper
 - nitrogen
 - flameshot
 - imagemagick (needed to display images in kitty)
