@@ -28,8 +28,9 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - pipewire
 - playerctl
 - brightnessctl
-- waypaper
-- nitrogen
+- waypaper (wallpaper gui)
+- feh (wallpaper support for x11)
+- swaybg (wallpaper support for wayland)
 - flameshot
 - imagemagick (needed to display images in kitty)
 - alsa-utils (amixer is needed for volume widget)
