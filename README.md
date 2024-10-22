@@ -34,7 +34,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - flameshot
 - imagemagick (needed to display images in kitty)
 - alsa-utils (amixer is needed for volume widget)
-- python libs: iwlib, psutil
+- python libs: iwlib, psutil, pywlroots
 - [papirus icons](https://www.pling.com/p/1166289)
 - [ubuntu](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip) and [firacode](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip) nerdfonts (for bar and terminal, respectively)
 
