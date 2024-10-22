@@ -24,7 +24,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - fastfetch
 - picom
 - rofi-wayland
-- gnome polkit
+- polkit-gnome
 - pipewire
 - playerctl
 - brightnessctl
