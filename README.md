@@ -8,6 +8,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 
 ## Dependencies
 - qtile
+- qtile-extras
 - kitty
 - zsh
 - zsh-autosuggestions
@@ -27,13 +28,14 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - pipewire
 - playerctl
 - brightnessctl
+- xdg-utils
 - waypaper (wallpaper gui)
 - feh (wallpaper support for x11)
 - swaybg (wallpaper support for wayland)
 - flameshot
 - imagemagick (needed to display images in kitty)
 - alsa-utils (amixer is needed for volume widget)
-- python libs: iwlib, psutil, pywlroots
+- python libs: iwlib, psutil, pywlroots dbus-next
 - [papirus icons](https://www.pling.com/p/1166289)
 - [ubuntu](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip) and [firacode](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip) nerdfonts (for bar and terminal, respectively)
 
@@ -55,7 +57,7 @@ Install dependencies (Arch only for now) (you will need and AUR helper)
 
 ```shell
 sudo pacman -Syu
-yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots
+yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils
 ```
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
