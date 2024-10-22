@@ -23,7 +23,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - p7zip
 - fastfetch
 - picom
-- rofi
+- rofi-wayland
 - gnome polkit
 - pipewire
 - playerctl
