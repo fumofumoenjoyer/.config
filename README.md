@@ -76,11 +76,13 @@ Download/Clone this repo and move the files to your config directory (.config) e
 
 To use my zshrc and my prompt add a dot on the start of histfile and zshrc and move them to the home directory with the prompt.json file.
 
+To theme GTK apps use lxappearance, tokyo night theme is preinstalled.
+
 To theme Qt/KDE apps do this:
 
 Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_STYLE_OVERRIDE=kvantum and save.
 
-Then select your theme in kvantum catupucchin themes are preinstalled since there is no tokyo-night for kvantum in the AUR.
+Then select your theme in kvantum, catupucchin themes are preinstalled since there is no tokyo-night for kvantum in the AUR.
 
 ## Binds
 SUPER + Return  = Kitty Terminal Emulator
