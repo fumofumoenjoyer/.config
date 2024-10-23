@@ -64,6 +64,8 @@ I also recommend the [Tokyo Night GTK theme](https://www.gnome-look.org/p/168131
 ## Installation
 This is NOT an install script and its not meant to work on a minimal install it will not set up a display manager nor Xorg or Wayland 
 
+[Video Tutorial](https://www.youtube.com/watch?v=JD6TK90WiE4) (its a bit outdated but it still works)
+
 Install dependencies (Arch only for now) (you will need and AUR helper)
 
 ```shell
@@ -73,6 +75,12 @@ yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh th
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
 To use my zshrc and my prompt add a dot on the start of histfile and zshrc and move them to the home directory with the prompt.json file.
+
+To theme Qt/KDE apps do this:
+
+Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_STYLE_OVERRIDE=kvantum and save.
+
+Then select your theme in kvantum catupucchin themes are preinstalled since there is no tokyo-night for kvantum in the AUR.
 
 ## Binds
 SUPER + Return  = Kitty Terminal Emulator
