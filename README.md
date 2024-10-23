@@ -1,4 +1,4 @@
-# Config Files
+![image](https://github.com/user-attachments/assets/2cf79655-c4a2-4c92-a393-59d1ed4700b1)# Config Files
 
 Based on [HyDE](https://github.com/prasanthrangan/hyprdots) and [JhoalfercoQtileDotfiles](https://github.com/JhonatanFerrer/JhoalfercoQtileDotfiles) 
 
@@ -94,6 +94,10 @@ SUPER + E    =   Thunar file manager
 SUPER + B    =    Librewolf Web Browser
 
 SUPER + Q    =    Kill Active Window
+
+SUPER + P    =    Screenshot entire screen
+
+SUPER + CTRL + P    =    Screenshot specified region
 
 ## Screenshots
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-30_1.png)
