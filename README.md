@@ -61,7 +61,7 @@ on
 ~/.config/qtile/autostart.sh
 ```
 
-I also recommend the [Tokyo Night GTK theme](https://www.gnome-look.org/p/1681315). You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
+You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 
 ## Installation
 This is NOT an install script and its not meant to work on a minimal install it will not set up a display manager nor Xorg or Wayland 
