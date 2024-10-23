@@ -39,6 +39,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - playerctl
 - brightnessctl
 - xdg-utils
+- mission-center
 - waypaper (wallpaper gui)
 - feh (wallpaper support for x11)
 - swaybg (wallpaper support for wayland)
@@ -71,7 +72,7 @@ Install dependencies (Arch only for now) (you will need and AUR helper)
 
 ```shell
 sudo pacman -Syu
-yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git
+yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git mission-center
 ```
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
