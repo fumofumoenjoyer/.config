@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2cf79655-c4a2-4c92-a393-59d1ed4700b1)# Config Files
+# Config Files
 
 Based on [HyDE](https://github.com/prasanthrangan/hyprdots) and [JhoalfercoQtileDotfiles](https://github.com/JhonatanFerrer/JhoalfercoQtileDotfiles) 
 
