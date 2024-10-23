@@ -71,6 +71,15 @@ Download/Clone this repo and move the files to your config directory (.config) e
 
 To use my zshrc and my prompt add a dot on the start of histfile and zshrc and move them to the home directory with the prompt.json file.
 
+## Binds
+SUPER + Return  = Kitty Terminal Emulator
+
+SUPER + E    =   Thunar file manager
+
+SUPER + B    =    Librewolf Web Browser
+
+SUPER + Q    =    Kill Active Window
+
 ## Screenshots
 ![imagen](https://github.com/Juancholololo/.config/blob/main/Pictures/screenshots/2024-10-16_17-30_1.png)
 
