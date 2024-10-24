@@ -17,6 +17,7 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - flatpak
 - htop
 - tty-clock
+- dunst
 - unimatrix
 - thunar
 - thunar-archive-plugin
@@ -69,11 +70,11 @@ This is NOT an install script and its not meant to work on a minimal install it 
 
 [Video Tutorial](https://www.youtube.com/watch?v=JD6TK90WiE4) (its a bit outdated but it still works)
 
-Install dependencies (Arch only for now) (you will need and AUR helper)
+Install dependencies (Arch only for now) (This will also install some apps i use in my workflow like web browser and screenshot utility) (you will need and AUR helper)
 
 ```shell
 sudo pacman -Syu
-yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git mission-center xorg-xwayland
+yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git mission-center xorg-xwayland dunst
 ```
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
