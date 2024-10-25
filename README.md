@@ -54,18 +54,42 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - [papirus icons](https://www.pling.com/p/1166289)
 - [ubuntu](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip) and [firacode](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip) nerdfonts (for bar and terminal, respectively)
 
+You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 ## Wayland
 
 If you want to use this config on wayland comment the line
 ```shell
-#picom &
+picom &
 ```
 on
 ```shell
 ~/.config/qtile/autostart.sh
 ```
 
-You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
+## Laptop Users
+
+I recommend installing the tlp package for better battery life
+```shell
+sudo pacman -S tlp
+```
+then run
+```shell
+systemctl enable tlp.service
+```
+If you want the wifi widget install the network manager applet
+```shell
+sudo pacman -S network-manager-applet
+```
+and uncomment the line
+```shell
+#nm-applet &
+```
+on
+```shell
+~/.config/qtile/autostart.sh
+```
+
+Then reboot for changes to take effect
 
 ## Installation
 This is NOT an install script and its not meant to work on a minimal install it will not set up a display manager nor Xorg or Wayland 
