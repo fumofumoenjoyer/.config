@@ -57,6 +57,8 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 ## Wayland
 
+WARNING: the systray will NOT work on wayland since de widget is not compatible with it, the statusnotifier widget should work but it will not show menus for the applet, im looking for a fix.
+
 If you want to use this config on wayland comment the line
 ```shell
 picom &
