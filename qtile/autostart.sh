@@ -8,6 +8,10 @@
 
 #disable picom for wayland support (it will only show an unresponsive black screen if left uncommented)
 picom &
+
 waypaper --restore &
 emacs --daemon &
+
+#uncomment the next line for the wifi widget for laptops
+#nm-applet &
 
