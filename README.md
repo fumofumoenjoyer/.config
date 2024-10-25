@@ -54,6 +54,8 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - [papirus icons](https://www.pling.com/p/1166289)
 - [ubuntu](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip) and [firacode](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip) nerdfonts (for bar and terminal, respectively)
 
+## Wayland
+
 If you want to use this config on wayland comment the line
 ```shell
 #picom &
