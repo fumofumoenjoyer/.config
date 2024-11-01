@@ -15,6 +15,8 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 - zsh-syntax-highlighting
 - oh-my-posh
 - flatpak
+- timeshift
+- timeshift-systemd-timer
 - htop
 - tty-clock
 - dunst
@@ -102,7 +104,7 @@ Install dependencies (Arch only for now) (This will also install some apps i use
 
 ```shell
 sudo pacman -Syu
-yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git mission-center xorg-xwayland dunst
+yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh thunar thunar-archive-plugin thunar-volman tumbler gvfs ark p7zip fastfetch picom rofi-wayland polkit-gnome pipewire playerctl brightnessctl waypaper feh swaybg flameshot imagemagick alsa-utils python-iwlib python-psutil python-pywlroots qtile-extras python-dbus-next xdg-utils nerd-fonts flatpak lxappearance htop tty-clock unimatrix gtk-engine-murrine tokyonight-gtk-theme-git papirus-icon-theme-git librewolf-bin kvantum kvantum-qt5 kvantum-theme-catppuccin-git selectdefaultapplication-git mission-center xorg-xwayland dunst timeshift-systemd-timer timeshift
 ```
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
@@ -116,7 +118,13 @@ Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_
 
 Then select your theme in kvantum, catupucchin themes are preinstalled since there is no tokyo-night for kvantum in the AUR.
 
-## Install Script (BETA)
+Enable the timeshift service for snapshots
+```shell
+sudo systemctl daemon-reload
+sudo systemctl enable timeshift-boot.timer
+```
+
+## Install Script (For minimal install)
 ```shell
 sudo pacman -Syu --needed git base-devel
 git clone --depth 1 https://github.com/fumofumoenjoyer/.config.git ~/fumofumo
