@@ -118,7 +118,7 @@ Then select your theme in kvantum, catupucchin themes are preinstalled since the
 
 ## Install Script (BETA)
 ```shell
-pacman -S --needed git base-devel
+sudo pacman -Syu --needed git base-devel
 git clone --depth 1 https://github.com/fumofumoenjoyer/.config.git ~/fumofumo
 cd fumofumo
 sh install.sh
