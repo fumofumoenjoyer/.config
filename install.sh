@@ -13,3 +13,4 @@ mv histfile .histfile
 mv zshrc .zshrc
 mv -t ~ .histfile prompt.json .zshrc
 chsh -s /bin/zsh
+systemctl enable sddm
