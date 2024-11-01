@@ -14,5 +14,5 @@ mv zshrc .zshrc
 mv -t ~ .histfile prompt.json .zshrc
 chsh -s /bin/zsh
 sudo systemctl daemon-reload
-systemctl enable sddm
+sudo systemctl enable sddm
 sudo systemctl enable timeshift-boot.timer
