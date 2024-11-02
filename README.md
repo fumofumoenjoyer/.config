@@ -124,7 +124,10 @@ sudo systemctl daemon-reload
 sudo systemctl enable timeshift-boot.timer
 ```
 
-## Install Script (For minimal install)
+## Install Script
+
+This will NOT crate a backup of your config files so back up your .config folder just in case.
+
 ```shell
 sudo pacman -Syu --needed git base-devel
 git clone --depth 1 https://github.com/fumofumoenjoyer/.config.git ~/fumofumo
