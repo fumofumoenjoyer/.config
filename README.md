@@ -59,7 +59,22 @@ Qtile config is almost the same as [JhoalfercoQtileDotfiles](https://github.com/
 You may also find useful this [wallpaper repository](https://github.com/tokyo-night/wallpapers)
 
 
-## Installation
+## Install Script (Arch-Based distros only)
+
+This will NOT crate a backup of your config files so back up your .config folder just in case.
+
+This should work on a minimal install and/or for installing alongside another DE/WM though it will probably mess with your DE settings such as theming.
+
+```shell
+sudo pacman -Syu --needed git base-devel
+git clone --depth 1 https://github.com/fumofumoenjoyer/.config.git ~/fumofumo
+cd fumofumo
+sh install.sh
+```
+
+NOTE: Right now you will have to set up the GTK and Kvantum themes manually by following the last four lines in the Manual Install section.
+
+## Manual Install
 This is NOT an install script and its not meant to work on a minimal install it will not set up a display manager nor Xorg or Wayland 
 
 [Video Tutorial](https://www.youtube.com/watch?v=JD6TK90WiE4) (its a bit outdated but it still works)
@@ -72,6 +87,12 @@ yay -S qtile kitty zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-posh th
 ```
 Download/Clone this repo and move the files to your config directory (.config) except the Pictures and zsh folders these go on the home directory.
 
+Enable the timeshift service for snapshots
+```shell
+sudo systemctl daemon-reload
+sudo systemctl enable timeshift-boot.timer
+```
+
 To use my zshrc and my prompt add a dot on the start of histfile and zshrc and move them to the home directory with the prompt.json file.
 
 To theme GTK apps use lxappearance, tokyo night theme is preinstalled.
@@ -82,22 +103,7 @@ Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_
 
 Then select your theme in kvantum, catupucchin themes are preinstalled since there is no tokyo-night for kvantum in the AUR.
 
-Enable the timeshift service for snapshots
-```shell
-sudo systemctl daemon-reload
-sudo systemctl enable timeshift-boot.timer
-```
 
-## Install Script (Arch-Based distros only)
-
-This will NOT crate a backup of your config files so back up your .config folder just in case.
-
-```shell
-sudo pacman -Syu --needed git base-devel
-git clone --depth 1 https://github.com/fumofumoenjoyer/.config.git ~/fumofumo
-cd fumofumo
-sh install.sh
-```
 
 
 ## Binds
