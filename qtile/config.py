@@ -1,4 +1,4 @@
-# Qtile config stolen from Jhoalferco modified with my keybinds and 
+# Qtile config stolen from Jhoalferco modified with my keybinds and some other stuff
 
 #   ____________________________
 #  |                           |
