@@ -64,6 +64,8 @@ You may also find useful this [wallpaper repository](https://github.com/tokyo-ni
 
 This will NOT crate a backup of your config files so back up your .config folder just in case.
 
+I usually install [HyDE](https://github.com/prasanthrangan/hyprdots) for hyprland before using this script but it also works without it.
+
 This should work on a minimal install and/or for installing alongside another DE/WM though it will probably mess with your DE settings such as theming.
 
 ```shell
