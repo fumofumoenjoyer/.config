@@ -17,6 +17,7 @@ rm -rf ~/.config/xfce4
 cd fumofumo
 mv -t ~/.config dunst fastfetch kitty picom hypr qtile rofi Thunar xfce4
 mv -t ~ Pictures
+rm -rf ~/Pictures/screenshots
 cd ~/fumofumo/zsh
 mv histfile .histfile
 mv zshrc .zshrc
@@ -24,3 +25,4 @@ mv -t ~ .histfile prompt.json .zshrc
 chsh -s /bin/zsh
 sudo systemctl daemon-reload
 sudo systemctl enable sddm
+mkdir ~/Pictures/Screenshots
